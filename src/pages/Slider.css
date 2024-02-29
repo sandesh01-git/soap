@@ -1,0 +1,45 @@
+.slick-list {
+	max-width: 95%;
+	margin: 10px auto;
+}
+.slick-list .slick-slide {
+	font-size: 30px;
+	text-align: center;
+	padding: 10px;
+	line-height: 2;
+	font-weight: 700;
+	background-color: none;
+}
+
+.slick-arrow {
+	z-index: 1;
+	width: 80px;
+	height: 80px;
+}
+
+.slick-arrow:before {
+	font-size: 30px;
+    color:rgb(148, 12, 12);
+}
+.slick-next {
+	right: 0;
+}
+.slick-prev {
+	left: 0;
+}
+
+.btn-wrap {
+	text-align: center;
+	width: 100%;
+}
+button {
+	background-color: #5708be;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin: 10px;
+	font-size: 18px;
+	font-weight: 600;
+	transition: all 0.5s;
+}
+
